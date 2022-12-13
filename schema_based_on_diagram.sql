@@ -10,3 +10,8 @@ CREATE TABLE medical_histories(
     patient_id INT REFERENCES patients(id) ON DELETE CASCADE,
     status VARCHAR(100)
 );
+CREATE TABLE treatments (
+    id BIGSERIAL NOT NULL PRIMARY KEY,
+    type VARCHAR(100),
+    name VARCHAR(100)
+);
