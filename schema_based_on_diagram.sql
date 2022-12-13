@@ -1,3 +1,4 @@
+CREATE DATABASE clinic;
 CREATE TABLE patients (
     id BIGSERIAL NOT NULL PRIMARY KEY,
     name VARCHAR(100),
